@@ -71,7 +71,7 @@ public class Inquirer {
 
 		System.out.println("Receiving random numbers RN[1],...,RN[n] from agent.");
 
-		BigInteger RN[] = (BigInteger[])input.readObject(); //RN[1],...,RN[n].
+		BigInteger[] RN = (BigInteger[])input.readObject(); //RN[1],...,RN[n].
 
 		for(int i = 0; i < RN.length; i++) {
 			System.out.println("RN["+i+"]="+RN[i]);

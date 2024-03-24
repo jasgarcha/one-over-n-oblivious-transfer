@@ -4,9 +4,9 @@ import java.math.BigInteger;
 import java.security.SecureRandom;
 
 public class RSA {
-	private BigInteger modulus; //p*q. Modulus.
-	private BigInteger publicKey; //Public key.
-	private BigInteger privateKey; //Private key.	
+	private final BigInteger modulus; //p*q. Modulus.
+	private final BigInteger publicKey; //Public key.
+	private final BigInteger privateKey; //Private key.
 
 	private final static SecureRandom random = new SecureRandom(); 
 
@@ -32,7 +32,7 @@ public class RSA {
 		
 		//Generate private exponent d, such that e*d = 1 mod (p-1)*(q-1).
 		//Use the Extended Euclidean Algorithm to determine the modular inverse.
-		//int val[] = egcd(e, phi);
+		//int val[] = gcd(e, phi);
 		//d = val[0].
 		
 		d = e.modInverse(phi);
