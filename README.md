@@ -12,5 +12,7 @@ Execute `Agent` (server) before `Inquirer` (client).
 4) Once the `Inquirer` connects to the `Agent`, 1-n Oblivious Transfer begins. 
 5) The protocol ends with the Inquirer receiving the `k`th information item from the `Agent`.
 
+For a more thorough overview of the mathematical steps involved in this algorithm, please refer to my comments in the code.
+
 ## Build
 Compile `RSA.class` before `Agent` and `Inquirer`.
