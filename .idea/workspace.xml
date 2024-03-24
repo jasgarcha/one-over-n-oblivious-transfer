@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb40ff5e-4bc4-4c78-9cc5-e397664efefa" name="Changes" comment="Main source files added.">
+    <list default="true" id="fb40ff5e-4bc4-4c78-9cc5-e397664efefa" name="Changes" comment="Minor syntax fixes.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inquirer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inquirer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RSA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RSA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,12 +76,21 @@
       <option name="project" value="LOCAL" />
       <updated>1711262521011</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Minor syntax fixes.">
+      <option name="closed" value="true" />
+      <created>1711262662947</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711262662947</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial project structure." />
     <MESSAGE value="Main source files added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Main source files added." />
+    <MESSAGE value="Minor syntax fixes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor syntax fixes." />
   </component>
 </project>
